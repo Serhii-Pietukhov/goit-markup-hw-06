@@ -750,12 +750,31 @@ margin: 40px 40px 30px 40px;
 textarea {
   resize: none;
 }
-.policy {
-  display: block;
+.checkbox{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: absolute;
+}
+.policy{
+  position: relative;
+}
+.policy::after {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: '';
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--heading-color);
+  border-radius: 2px;
+  display: inline-block;
+
 }
 
 .policy-text {
-  
+
   font-weight: normal;
 
   line-height: 1.71;
