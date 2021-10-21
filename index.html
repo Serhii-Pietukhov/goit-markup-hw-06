@@ -346,10 +346,12 @@
                 <p class="social-heading footer-form-heading">Подпишитесь на рассылку</p>
                 <form action="name" class="footer-form-field">
                     <label for="">
-                        <input type="email" class="footer-form-input" autocomplete="email" placeholder="E-mail">
+                        <input type="email" name="subscribe-email" class="footer-form-input" autocomplete="email" placeholder="E-mail">
                     </label>
-                    <button type="button" class="footer-form-button"><span class="footer-subscribe-text">Подписаться</span>
-                        <span class="subscribe-icon"></span>
+                    <button type="submit" class="footer-form-button">Подписаться
+                        <svg class="subscribe-icon">
+                            <use href="/images/icons.svg#icon-icon-send"></use>
+                        </svg>
                     </button>
                     
                 </form>
@@ -413,12 +415,20 @@
                  </form>
 
 
-
-                    <label for="policy" class="policy">
-                        <span class="policy-text">Соглашаюсь с рассылкой и принимаю <a href="" class="policy-link">Условия договора</a></span>
+                 
+                 <div class="policy">
+                    <label for="policy" class="policy-field">
+                        Соглашаюсь с рассылкой и принимаю <a href="" class="policy-link">Условия договора</a>
                         <input type="checkbox" value="html" id="policy" class="checkbox">
-                        <span class="icon"></span>
+                        <svg class="icon-svg">
+                            <use href="./images/icons.svg#icon-Vector"></use>
+                        </svg>
                     </label>
+                 </div>
+
+
+
+                    
 
                     <button type="submit" class="form-button">Отправить</button>
 

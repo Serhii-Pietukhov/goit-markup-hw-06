@@ -260,10 +260,13 @@
             <p class="social-heading footer-form-heading">Подпишитесь на рассылку</p>
             <form action="name" class="footer-form-field">
                 <label for="">
-                    <input type="email" class="footer-form-input" autocomplete="email" placeholder="E-mail">
+                    <input type="email" name="subscribe-email" class="footer-form-input" autocomplete="email"
+                        placeholder="E-mail">
                 </label>
-                <button type="button" class="footer-form-button"><span class="footer-subscribe-text">Подписаться</span>
-                    <span class="subscribe-icon"></span>
+                <button type="submit" class="footer-form-button"><span class="footer-subscribe-text">Подписаться</span>
+                    <svg class="subscribe-icon">
+                        <use href="/images/icons.svg#icon-icon-send"></use>
+                    </svg>
                 </button>
 
             </form>
