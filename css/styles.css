@@ -309,7 +309,10 @@ h3 {
   width: 18px;
   height: 18px;
 }
-
+.close-svg:hover,
+.close-svg:focus {
+  fill: var(--accent-color);
+}
 .hero-button {
   display: inline-block;
   background-color: var(--accent-color);
