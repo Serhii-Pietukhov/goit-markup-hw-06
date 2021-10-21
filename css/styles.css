@@ -789,12 +789,13 @@ textarea {
   position: absolute;
   display: inline-block;
 }
-/* .checkbox:checked ~ .policy-field::after {
-    opacity: 0;
-  } */
 
 .checkbox:checked ~ .icon-svg {
   opacity: 1;
+}
+.checkbox:checked ~ .policy-field::after {
+  border: none;
+  border-color: transparent;
 }
 
 .icon-svg {
