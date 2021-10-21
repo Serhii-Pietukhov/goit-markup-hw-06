@@ -790,14 +790,14 @@ textarea {
   display: inline-block;
 }
 
-.checkbox:checked ~ .icon-svg {
+.checkbox:checked ~ .policy-icon-svg {
   opacity: 1;
 }
 .checkbox:checked ~ .border {
   opacity: 0;
 }
 
-.icon-svg {
+.policy-icon-svg {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
